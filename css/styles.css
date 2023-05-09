@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.abs-center {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  margin-top: 10px;
+}
+
+.container {
+  
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 5px;
+  margin-top: 10px;
+  
+}
+
+html {height: 100%;}
+body {
+  background-image: linear-gradient(to bottom right, #019c20, #d5ef10, #f3ae9b, rgb(251, 248, 247));
+
+}
+
+
+.container1 {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+  
+}
+.container3 {
+  
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+  
+}
+.container4 {
+  
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 5px;
+  margin-top: 10px;
+  
+}
+
+
+
+
+.imgInte {
+  
+  width: 300px;
+  padding: 5px;
+  margin-top: 10px;
+  }
+
+  
+.imgInte2 {
+  
+    width: 400px;
+    padding: 1px;
+    margin-top: 1px;
+    }
+
+.imgInte3 {
+  
+      width: 200px;
+      height: 20px;
+      padding: 1px;
+      margin-top: 1px;
+      }
+      .imgInte4 {
+  
+        width: 5px;
+        height: 5px;
+        padding: 1px;
+        margin-top: 1px;
+        }   
+
+#validationCustom02 {
+  margin-top: 15px;
+}
+
+.btn-test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+
+#regiration_form fieldset:not(:first-of-type) {
+  display: none;
+}
